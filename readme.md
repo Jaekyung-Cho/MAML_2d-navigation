@@ -84,4 +84,4 @@ Baseline2 (random initialized) tend to be adapted to new tasks but much slower t
 <br><br>
 The log-scale reward summation graph is following.  
 <br><br>
-<img src="results/MAML_result.png" style="height: 200px;">
+<img src="results/MAML_result.png" style="height: 400px;">
