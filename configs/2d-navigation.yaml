@@ -1,0 +1,48 @@
+# General
+# -------
+# Name of the environment.
+env-name: "2DNavigation-v0"
+
+# Additional parameters for the environment (eg. bound for task sampling).
+env-kwargs:
+  low: -0.5
+  high: 0.5
+
+
+
+# Env parameters for MAML 
+max_ep_len : 100            # max timesteps in one episode
+num_batches : 500           # outer loop iteration (number of tasks)
+fast_batches : 20           # K-trajectory sample from task in inner loop
+fast_num_step : 1           # update step for inner loop
+fast_lr : 0.05               # learning rate for inner loop
+
+meta_batches : 20                # batch for meta learn phase
+
+
+update_timestep : 100     # update policy every n timesteps
+
+max_eval_step : 5
+
+
+
+################ PPO hyperparameters ################
+
+has_continuous_action_space : True  # continuous action space; else discrete
+hidden_dim : 100
+
+eps_clip: 0.2          # clip parameter for PPO
+gamma : 0.99            # discount factor
+
+lr_actor : 0.0003       # learning rate for actor network
+lr_critic : 0.001       # learning rate for critic network
+
+K_epochs : 20
+
+save_path_baseline1 : "PPO/save/baseline1.pth"
+save_path_maml : "PPO/save/maml.pth"
+
+#####################################################
+
+
+evaluation_num : 100
