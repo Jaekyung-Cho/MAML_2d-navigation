@@ -57,30 +57,30 @@ A red dot is the moving robot.
   
 Only 3 update is enough to solve 2d-navigation task for MAML.
 <br>  
-<img src="results/maml_0_update.png" style="height: 150px;">
-<img src="results/maml_1_update.png" style="height: 150px;">
-<img src="results/maml_2_update.png" style="height: 150px;">
-<img src="results/maml_3_update.png" style="height: 150px;">
-<img src="results/maml_4_update.png" style="height: 150px;">
-<img src="results/maml_5_update.png" style="height: 150px;">
+<img src="results/maml_0_update.png" style="height: 200px;">
+<img src="results/maml_1_update.png" style="height: 200px;">
+<img src="results/maml_2_update.png" style="height: 200px;">  
+<img src="results/maml_3_update.png" style="height: 200px;">
+<img src="results/maml_4_update.png" style="height: 200px;">
+<img src="results/maml_5_update.png" style="height: 200px;">
 <br><br>
 However baseline1 (pretrained) cannot solve 2d-navigation task. It looks like overfitted to training tasks.
 <br><br> 
-<img src="results/baseline1_0_update.png" style="height: 150px;">
-<img src="results/baseline1_1_update.png" style="height: 150px;">
-<img src="results/baseline1_2_update.png" style="height: 150px;">
-<img src="results/baseline1_3_update.png" style="height: 150px;">
-<img src="results/baseline1_4_update.png" style="height: 150px;">
-<img src="results/baseline1_5_update.png" style="height: 150px;">
+<img src="results/baseline1_0_update.png" style="height: 200px;">
+<img src="results/baseline1_1_update.png" style="height: 200px;">
+<img src="results/baseline1_2_update.png" style="height: 200px;">  
+<img src="results/baseline1_3_update.png" style="height: 200px;">
+<img src="results/baseline1_4_update.png" style="height: 200px;">
+<img src="results/baseline1_5_update.png" style="height: 200px;">
 <br><br>
 Baseline2 (random initialized) tend to be adapted to new tasks but much slower than MAML.
 <br><br>
-<img src="results/baseline2_0_update.png" style="height: 150px;">
-<img src="results/baseline2_1_update.png" style="height: 150px;">
-<img src="results/baseline2_2_update.png" style="height: 150px;">
-<img src="results/baseline2_3_update.png" style="height: 150px;">
-<img src="results/baseline2_4_update.png" style="height: 150px;">
-<img src="results/baseline2_5_update.png" style="height: 150px;">
+<img src="results/baseline2_0_update.png" style="height: 200px;">
+<img src="results/baseline2_1_update.png" style="height: 200px;">
+<img src="results/baseline2_2_update.png" style="height: 200px;">  
+<img src="results/baseline2_3_update.png" style="height: 200px;">
+<img src="results/baseline2_4_update.png" style="height: 200px;">
+<img src="results/baseline2_5_update.png" style="height: 200px;">
 <br><br>
 The log-scale reward summation graph is following.  
 <br><br>
